@@ -4,7 +4,9 @@ let Operator;
 
 // This is 'Original Function' in JS.
 function setOperator(_Operator) {
-    Operator = _Operator;
+  Number1 = document.getElementById('numInput').value;
+  Operator = _Operator;
+  document.getElementById('numInput').value = "";
 }
 
 Sum=() => {

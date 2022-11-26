@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-      <div id="displayBoard" class="showAnswer">888</div>
+      <div id="displayBoard" class="showAnswer"></div>
       <p>Please field a number :</p>
       <form align='center'>
-        <input type="number" id="numInput" value="0">
+        <input type="number" id="numInput" value="">
         <br>
           
-        <input type="button" id="btnPlus" value="+">
+        <input type="button" id="btnPlus" value="+" onclick="setOperator(document.getElementById('numInput').value">
         <input type="button" id="btnMinus" value="-">
         <input type="button" id="btnMultiple" value="*">
         <input type="button" id="btnDivide" value="/">
