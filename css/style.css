@@ -1,0 +1,14 @@
+/* THIS IS CSS SINGLE LINE COMMENT */
+
+/*
+    YOU CAN LEAVE A MULTIPLE LINE
+    COMMENT LIKE THIS.
+*/
+header {
+    /* Style the header */
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+
