@@ -1,5 +1,5 @@
 // Simple Calculator 
-let Number1 = 0, Number2 = 0;
+let Number1 = 0.0, Number2 = 0.0;
 let charOperator = "";
 
 // This is the original function pattern in JS.
