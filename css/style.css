@@ -14,6 +14,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid black;
   text-align: center;
   background-color: lightgray;
   width: 155px;
@@ -22,10 +23,10 @@ p {
 
 input[type=button] {
   margin-top: 5px;
+  width: 25px;
+  /* border-radius: 20px; */
 }
 
 input[type=number] {
   text-align: right;
 }
-
-
