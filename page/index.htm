@@ -3,22 +3,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WebCalc</title>
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/main.js"></script>
     </head>
     <body>
-      <div id="displayBoard" class="showAnswer"></div>
-      <p>Please field a number :</p>
       <form align='center'>
-        <input type="number" id="numInput" value="">
-        <br>
-          
-        <input type="button" id="btnPlus" value="+" onclick="setOperator(document.getElementById('numInput').value
-        , '+')">
-        <input type="button" id="btnMinus" value="-">
-        <input type="button" id="btnMultiple" value="*">
-        <input type="button" id="btnDivide" value="/">
-        <input type="button" id="btnClear" value="C">
-        <input type="button" id="btnEqual" value="=">
+        <p>Please field the first number :
+          <input type="number" id="numInput1" value="0">
+        </p>
+        <p>Please field the second number : 
+          <input type="number" id="numInput2" value="0">
+        </p>
+        <p>Operator selected : 
+          <input type="text" id="txtOperator" disabled="false">
+        </p>
+        <p> Answer is 
+          <input type="number" id="numAnswer" value="0" disabled="false">
+        </p>
+        <p>
+          <input type="button" id="btnPlus" value="+" onclick="setOperator('+')">
+          <input type="button" id="btnMinus" value="-" onclick="setOperator('-')">
+          <input type="button" id="btnMultiple" value="*" onclick="setOperator('*')">
+          <input type="button" id="btnDivide" value="/" onclick="setOperator('/')">
+          <input type="button" id="btnClear" value="C" onclick="ResetAll()">
+          <input type="button" id="btnEqual" value="=" onclick="
+            Calculation(
+              document.getElementById('numInput1').value,
+              document.getElementById('numInput2').value
+            )">
+        </p>
       </form>
         
         
