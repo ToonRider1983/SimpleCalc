@@ -2,11 +2,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>...</title>
-        <!-- <link rel="stylesheet" href="/css/style.css"> -->
-        
+        <title>WebCalc</title>
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
+      <div id="displayBoard" class="showAnswer"></div>
+      <p>Please field a number :</p>
+      <form align='center'>
+        <input type="number" id="numInput" value="0">
+        <br>
+          
+        <input type="button" id="btnPlus" value="+" width="10px">
+        <input type="button" id="btnMinus" value="-" width="10px">
+        <input type="button" id="btnMultiple" value="*" width="10px">
+        <input type="button" id="btnDivide" value="/" width="10px">
+        <input type="button" id="btnClear" value="C" width="10px">
+        <input type="button" id="btnEqual" value="=" width="10px">
+      </form>
+        
         
     </body>
 </html>

@@ -1,21 +1,21 @@
 
-let Number1, Number2, Answer;
+let Number1, Number2;
 let Operator;
 
 // This is 'Original Function' in JS.
-function setAdd(_Operator) {
+function setOperator(_Operator) {
     Operator = _Operator;
 }
 
 Sum=() => {
     switch(Operator) {
-        case '+' : Add(Number1, Number2);
+        case '+' : return Add(Number1, Number2); break;
+        
     }
 }
 
-Add=(Num1, Num2) => {
-    Answer = Number1 + Number2;
-    return Answer;
-}
+Add=(Num1, Num2) => { return Number1 + Number2; }
+
+
 
 console.log(Sum());
