@@ -1,5 +1,5 @@
 // Simple Calculator 
-let Number1 = 0.0, Number2 = 0.0;
+var Number1 = 0.0, Number2 = 0.0;
 let charOperator = "";
 
 // This is the original function pattern in JS.
@@ -9,7 +9,7 @@ function setOperator(Operator) {
 }
 
 // This is the arrow function pattern in JS.
-Add=()=> { return Number1 + Number2; }
+Add=()=> { return Number(Number1 + Number2); }
 Minus=()=> { return Number1 - Number2; }
 Multiple=()=> { return Number1 * Number2; }
 Divide=()=> { return Number1 / Number2; }
@@ -18,6 +18,7 @@ Divide=()=> { return Number1 / Number2; }
 ResetAll=()=> { 
   Number1 = Number2 = 0;
   charOperator = "";
+
   document.getElementById('numInput1').value
     = document.getElementById('numInput2').value
     = document.getElementById('numAnswer').value = 0;
@@ -38,5 +39,4 @@ Calculation=(NumFirst, NumSecond)=> {
     case '*' :  document.getElementById('numAnswer').value = Multiple(); break;
     case '/' :  document.getElementById('numAnswer').value = Divide(); break;
   }
-
 }

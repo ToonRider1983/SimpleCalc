@@ -5,14 +5,9 @@
     COMMENT LIKE THIS.
 */
 p {
-  font-style: bold;
+  font-weight: bold;
   text-align: left;
   margin-bottom: 5px;
-}
-
-div {
-  display:block;
-  
 }
 
 .showAnswer {
@@ -27,8 +22,8 @@ div {
 }
 
 input[type=button] {
-  margin-top: 5px;
   width: 25px;
+  font-weight: bold;
   /* border-radius: 20px; */
 }
 
