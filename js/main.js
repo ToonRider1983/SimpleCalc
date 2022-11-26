@@ -3,10 +3,11 @@ let Number1, Number2;
 let Operator;
 
 // This is 'Original Function' in JS.
-function setOperator(_Operator) {
-  Number1 = document.getElementById('numInput').value;
+function setOperator(objValue, _Operator) {
+  Number1 = objValue;
   Operator = _Operator;
   document.getElementById('numInput').value = "";
+  document.getElementById('showAnswer').innerHTML += Number1 + " " + Operator;
 }
 
 Sum=() => {
