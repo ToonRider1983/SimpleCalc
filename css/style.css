@@ -10,17 +10,6 @@ p {
   margin-bottom: 5px;
 }
 
-.showAnswer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  text-align: center;
-  background-color: lightgray;
-  width: 155px;
-  height: auto;
-}
-
 input[type=button] {
   width: 25px;
   font-weight: bold;
