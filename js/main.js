@@ -9,7 +9,7 @@ function setOperator(Operator) {
 }
 
 // This is the arrow function pattern in JS.
-Add=()=> { return Number1 + Number2 }
+Add=()=> { return Number(Number1) + Number(Number2) }
 Minus=()=> { return Number1 - Number2 }
 Multiple=()=> { return Number1 * Number2 }
 Divide=()=> { return Number1 / Number2 }
