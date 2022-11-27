@@ -1,17 +1,17 @@
-/* THIS IS CSS SINGLE LINE COMMENT */
+/* THIS IS CSS SINGLE-LINE COMMENT */
 
 /*
     YOU CAN LEAVE A MULTIPLE LINE
     COMMENT LIKE THIS.
 */
 p {
-  margin: 10px 0px 10px 10px;
+  margin: 10px 0px 10px 10px; /* margin: top right bottom left */
   text-align: left;
   margin-bottom: 5px;
 }
 
-.nameApp {
-  color: navy;
+.nameApp { /* This is the 'nameApp' css class, it's define the text's color. */
+  color: navy; 
 }
 
 form {
@@ -23,7 +23,7 @@ form {
   border-radius: 10px;
 }
 
-input[type=button] {
+input[type=button] { 
   margin: 0px 0px 10px 5px;
   width: 25px;
   font-weight: bold;
