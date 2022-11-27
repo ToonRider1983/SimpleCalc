@@ -29,7 +29,7 @@ ResetAll=()=> {
 // This is the arrow function pattern in JS.
 Calculation=(NumFirst, NumSecond)=> {
   Number1 = NumFirst
-  Number2 = NumSecond
+  Number2 = NumSecond 
 
   document.getElementById('numAnswer').value = 0
 
