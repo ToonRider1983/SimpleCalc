@@ -10,6 +10,10 @@ p {
   margin-bottom: 5px;
 }
 
+form {
+  width: 255px;
+}
+
 input[type=button] {
   width: 25px;
   font-weight: bold;
